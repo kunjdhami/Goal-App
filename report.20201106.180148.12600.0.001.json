@@ -1,0 +1,518 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20201106.180148.12600.0.001.json",
+    "dumpEventTime": "2020-11-06T18:01:48Z",
+    "dumpEventTimeStamp": "1604665908357",
+    "processId": 12600,
+    "cwd": "C:\\Users\\Setup\\Desktop\\untold\\projects\\native\\first",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\\\node.exe",
+      "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+      "--version"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2899640,
+        "nice": 0,
+        "sys": 2972562,
+        "idle": 16225937,
+        "irq": 579859
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1674281,
+        "nice": 0,
+        "sys": 610343,
+        "idle": 19813296,
+        "irq": 54359
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 3141656,
+        "nice": 0,
+        "sys": 1407859,
+        "idle": 17548406,
+        "irq": 57437
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2422906,
+        "nice": 0,
+        "sys": 857875,
+        "idle": 18817140,
+        "irq": 29890
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 3422031,
+        "nice": 0,
+        "sys": 1490000,
+        "idle": 17185890,
+        "irq": 49375
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2247296,
+        "nice": 0,
+        "sys": 1700953,
+        "idle": 18149656,
+        "irq": 60515
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 3221078,
+        "nice": 0,
+        "sys": 1441187,
+        "idle": 17435640,
+        "irq": 61312
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2312671,
+        "nice": 0,
+        "sys": 909531,
+        "idle": 18875703,
+        "irq": 35656
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi 4",
+        "internal": false,
+        "mac": "d0:37:45:2e:19:c2",
+        "address": "fe80::ede6:e1fe:cd49:446d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "Wi-Fi 4",
+        "internal": false,
+        "mac": "d0:37:45:2e:19:c2",
+        "address": "192.168.0.104",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-SRB68KM"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff74f9319f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74f935e1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74f934dd8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fa334cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750249f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750232021",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7500fe57c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750106521",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7500fbb13",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7500fa184",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff75011b36d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fe80c51",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750694ddd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff75065af77",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750619d8c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7506172c1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750616eac",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff750157c33",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7501575b6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff75022862d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fa5a73e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fa5a977",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fa598ba",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74f9fac92",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74fa5a3d3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff74f9067ac",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff75074be08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff87ace7c24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff87b70cea1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3203072,
+    "totalCommittedMemory": 3203072,
+    "usedMemory": 2425376,
+    "availableMemory": 2195662360,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047368,
+        "available": 88
+      },
+      "old_space": {
+        "memorySize": 1196032,
+        "committedMemory": 1196032,
+        "capacity": 957040,
+        "used": 954448,
+        "available": 2592
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 153152,
+        "used": 153152,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 237600,
+        "used": 237600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.062,
+    "kernelCpuSeconds": 0.031,
+    "cpuConsumptionPercent": 9.3,
+    "maxRss": 19120128,
+    "pageFaults": {
+      "IORequired": 4840,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 98
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Setup\\Desktop\\untold\\projects\\native\\first",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Setup\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-SRB68KM",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Setup\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Setup",
+    "INIT_CWD": "C:\\Users\\Setup\\Desktop\\untold\\projects\\native\\first",
+    "LOCALAPPDATA": "C:\\Users\\Setup\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-SRB68KM",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.0 npm/? node/v12.16.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "expo start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_expo": "~39.0.2",
+    "npm_package_dependencies_expo_status_bar": "~1.0.2",
+    "npm_package_dependencies_react": "16.13.1",
+    "npm_package_dependencies_react_dom": "16.13.1",
+    "npm_package_dependencies_react_native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "npm_package_dependencies_react_native_web": "~0.13.12",
+    "npm_package_devDependencies__babel_core": "~7.9.0",
+    "npm_package_main": "node_modules/expo/AppEntry.js",
+    "npm_package_name": "",
+    "npm_package_private": "true",
+    "npm_package_scripts_android": "expo start --android",
+    "npm_package_scripts_eject": "expo eject",
+    "npm_package_scripts_ios": "expo start --ios",
+    "npm_package_scripts_start": "expo start",
+    "npm_package_scripts_web": "expo start --web",
+    "npm_package_version": "",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\Setup\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Setup\\AppData\\Local\\Temp\\yarn--1604665906499-0.43599521377608697;C:\\Users\\Setup\\Desktop\\untold\\projects\\native\\first\\node_modules\\.bin;C:\\Users\\Setup\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Setup\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Setup\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Setup\\AppData\\Roaming\\npm;C:\\Users\\Setup\\AppData\\Local\\Yarn\\bin;C:\\Users\\Setup\\AppData\\Local\\Microsoft\\WindowsApps",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 11, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0b",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PT7HOME": "C:\\Program Files\\Cisco Packet Tracer 7.2",
+    "PUBLIC": "C:\\Users\\Public",
+    "QT_DEVICE_PIXEL_RATIO": "auto",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Setup\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Setup\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-SRB68KM",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-SRB68KM",
+    "USERNAME": "Setup",
+    "USERPROFILE": "C:\\Users\\Setup",
+    "windir": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
